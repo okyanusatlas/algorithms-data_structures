@@ -1,7 +1,7 @@
 // Given an array and chunk size, divide array into many subarrays where each subarray is of length size
 
 const chunk = (arr, size) => {
-    //remaning array length > size ? push new array with "size" length into results array, continue on result array
+    //remaning array length > size ? add new array with "size" length into results array, continue on result array
     let result = [];
     const chunker = arr => {
         if (arr.length > size) {
