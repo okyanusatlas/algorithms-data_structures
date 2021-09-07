@@ -9,7 +9,7 @@ const anagram = (str1, str2) => {
     return (equivalentObjects(obj1, obj2));
 
 };
-
+//test comment
 const objMaker = str => {
     return str
       .toLowerCase() // make sure everything is lower case
